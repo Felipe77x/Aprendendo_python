@@ -58,4 +58,72 @@ animal = "GATO"
 
 print(animal.lower())
 
+# Metodo count
 
+metodo_3 = nome.count("a")
+
+print(metodo_3)
+
+
+# Metodo find 
+
+metodo_4 = nome.find("a")
+
+print(metodo_4)
+
+# Metodo encode
+
+metodo_5 = nome.encode()
+
+print(metodo_5)
+
+# Metodo decode
+
+metodo_6 = nome.encode().decode()
+
+print(metodo_6)
+
+
+# Metodo replace
+
+metodo_7 = nome.replace("o" , "123")
+
+print(metodo_7)
+
+
+# Metodo join
+
+metodo_8 = "-".join(nome)
+
+print(metodo_8)
+
+# Metodo split
+
+metodo_9 = nome.split()
+
+print(metodo_9)
+
+# Metodo strip
+
+metodo_10 = nome.strip("e"+ "D")
+
+print(metodo_10)
+
+
+# Metodo star
+
+metodo_11 = nome.startswith("Do")
+
+print(metodo_11)
+
+# comparadores in e not in
+
+# comparador in
+comparador_1 = "or" in nome
+
+print(comparador_1)
+#comparador not in 
+
+comparador_2 = "or" not in nome 
+
+print(comparador_2)
