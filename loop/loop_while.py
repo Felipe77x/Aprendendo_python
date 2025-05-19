@@ -9,12 +9,13 @@ Também podemos usar o break para sair do loop em determinada condição.
 Em seguida, vamos aplicar o while em um projeto prático, criando um menu para um gerenciador de lista de tarefas. 
 O loop while será usado para repetir o menu até que o usuário escolha a opção de sair.
 """
-    
-While True:
+
+while True:
     nome_cadastro = input("Digite seu nome completo.")
-    if nome_cadastro > 15:
-        nome_cadastro = 5 
+    if  nome_cadastro == 5: 
+      
         break
     else:
-        print("Finalizar projeto")
+        print(f"Finalizar projeto f{nome_cadastro}")
+    break
     
