@@ -9,7 +9,7 @@ app = Flask(__name__)
 
 tasks = [] 
 
-@app.route('/', methods=['POST'])
+@app.route('/tasks', methods=['POST'])
 def create_tasks():
     data = request.get_json()
     return 'Felipe estude bastante para sair da pobreza.'
